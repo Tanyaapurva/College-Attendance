@@ -13,7 +13,7 @@ import java.util.Date;
 @Table(name = "lesson")
 @Data
 @ToString
-//@IdClass(COCPSubSubmitOrderDetailsId.class)
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Lesson implements Serializable {
     private static final long serialVersionUID = 1L;

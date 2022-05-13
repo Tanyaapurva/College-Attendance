@@ -14,7 +14,6 @@ import java.util.List;
 @Table(name = "teacher")
 @Data
 @ToString
-//@IdClass(COCPSubSubmitOrderDetailsId.class)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Teacher implements Serializable {
     private static final long serialVersionUID = 1L;
