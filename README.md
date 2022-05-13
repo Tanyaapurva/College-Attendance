@@ -17,18 +17,19 @@ Attendance management system
 6. Intellij
 # How to run the Program:
 Step1: MySql Setup
-Open Mysql
-1. "Create database college"
-Run this in terminal(use path where College.sql is present)
-mysql -u root -p college < college.sql
-Open Mysql
-Check College schema
+1. Open Mysql
+--> "Create database college"
+2. Run this in terminal(use path where College.sql is present)
+--> mysql -u root -p college < college.sql
+3. Open Mysql
+--> Check College schema
 
 Step2: Import collegeAttendance Project in intellij
 
 Step3: Run AttendanceApplication(main class)
 
 Step4: Import "https://www.getpostman.com/collections/8d79d767873787bda2be" (under link) in Postman
+
 create student
 view student
 create teacher
